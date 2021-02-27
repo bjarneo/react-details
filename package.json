@@ -1,0 +1,28 @@
+{
+  "name": "react-details",
+  "version": "1.0.0",
+  "description": "This is a details HTML wrapper - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
+  "source": "index.jsx",
+  "main": "dist/index.js",
+  "exports": "./dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle build -o dist/ -i index.jsx --external react,react-dom --name Details --jsx React.createElement",
+    "demo": "esbuild demo.jsx --minify --sourcemap --watch --target=chrome58,firefox57,safari11,edge16 --bundle '--define:process.env.NODE_ENV=\"development\"' --outfile=demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.8.53",
+    "microbundle-crl": "^0.13.11",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
