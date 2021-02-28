@@ -29,7 +29,7 @@ function App() {
 
 ### Visuals
 
-![Visuals](/details.gif 'gif')
+![Visuals](details.gif 'gif')
 
 ### Configuration
 
