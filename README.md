@@ -29,7 +29,7 @@ function App() {
 
 ### Visuals
 
-![Visuals](details.gif 'gif')
+![Visuals](https://raw.githubusercontent.com/bjarneo/react-details/HEAD/details.gif 'gif')
 
 ### Configuration
 
