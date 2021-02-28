@@ -8,21 +8,17 @@
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "microbundle build -o dist/ -i index.jsx --external react,react-dom --name Details --jsx React.createElement",
+    "build": "microbundle build -o dist/ -i index.jsx --name Details --jsx React.createElement",
     "demo": "esbuild demo.jsx --minify --sourcemap --watch --target=chrome58,firefox57,safari11,edge16 --bundle '--define:process.env.NODE_ENV=\"development\"' --outfile=demo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bjarne Oeverli",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "esbuild": "^0.8.53",
-    "microbundle-crl": "^0.13.11",
+    "microbundle": "^0.13.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
   }
 }

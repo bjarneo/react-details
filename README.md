@@ -51,3 +51,8 @@ Simply by following these steps:
 1. Clone the repository
 2. Run `npm run demo`
 3. Open index.html in your browser
+4. The styling from the gif lives in index.html
+
+### LICENSE
+
+MIT - © Bjarne Oeverli - See LICENSE
