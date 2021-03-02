@@ -1,7 +1,7 @@
 {
   "name": "react-details",
-  "version": "1.0.2",
-  "description": "This is a wrapper for the html5 details - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
+  "version": "1.0.3",
+  "description": "This is a wrapper for the html5 details element - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
   "source": "index.jsx",
   "main": "dist/index.js",
   "exports": "./dist/index.modern.js",
@@ -22,11 +22,17 @@
     "details",
     "summary",
     "dropdown",
-    "expandable"
+    "expandable",
+    "html5"
   ],
-  "dependencies": {
+  "devDependencies": {
     "esbuild": "^0.8.53",
     "microbundle": "^0.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
