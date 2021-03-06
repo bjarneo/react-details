@@ -1,6 +1,6 @@
 {
   "name": "react-details",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a wrapper for the html5 details element - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
   "source": "index.jsx",
   "main": "dist/index.js",

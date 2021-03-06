@@ -2,6 +2,12 @@
 
 This is a `<details>` HTML wrapper - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
+### Install
+
+```bash
+$ npm i --save react-details
+```
+
 ### Usage
 
 ```javascript
